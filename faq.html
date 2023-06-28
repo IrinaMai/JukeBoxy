@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>FAQ</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/feature.css">
+    <link rel="stylesheet" href="./css/faq.css">
+
 
 </head>
 <body>
@@ -76,79 +78,74 @@
     </header>
 
     <main>
-      <div class="hero-contact">
-        <h1 class="hero-title">We’d love to hear from you</h1>
-        <p class="hero-text">Our friendly team is always here to chat.</p>
-        <div class="contact">
-          <ul id="contact-list">
-            <li class="contact-item">
-              <div class="contact-card">
-                <div class="contact-img phone">
-                  <a href="tel:844 666 5853" class="phone">
-                  <div class="inner-img"></div>
-                  </a>
-                </div>
-                <p class="contact-title">Phone</p>
-                <p class="contact-slogan">Speak to our friendly team.</p>
-                <a href="tel:844 666 5853" class="contact-number">(844) 666-5853</a>
-              </div>
+      <div class="hero-faq">
+        <h1 class="hero-title faq-title1">YOU HAVE QUESTIONS.</h1>
+        <h1 class="hero-title faq-title2">WE HAVE <img src="./img/faq-micr.svg" alt=""> ANSWERS.</h1>
+        <p class="hero-text">Need something cleared up? Here are our most frequently asked questions.</p>
+        <input class="faq-input-headder" type="search" placeholder="Search">
+        </div>
+        <section class="section">
+          <select name="faq-select" class="faq-select">
+            <option value="general">General</option>
+            <option value="2">Зеленый</option>
+            <option value="3">Желтый</option>.faq-
+            <option value="4">Красный</option>
+            <option value="5">Оранжевый</option>cx
+            <option value="6">Черный</option>
+          </select>
+
+          <div class="selected-block">
+            <img class="faq-img-pause" src="./img/pause.svg" alt="">
+            <h4 class="faq-subtitle">
+              Who is Jukeboxy Music?
+            </h4>
+            <p class="faq-text">Jukeboxy Music is a state-of-the-art music streaming service for businesses that plays music for their customers with in-store audio message capability. Companies who wish the utilize the powerful in-store audio message marketing approach, they can do so with our simple and quick system.</p>
+          </div>
+          <ul class="question-list">
+            <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">Who can use Jukeboxy?</p>
             </li>
-            <li class="contact-item">
-              <div class="contact-card">
-                <div class="contact-img email">
-                  <a href="mailto:info@jukeboxy.com">
-                  <div class="inner-img"></div>
-                  </a>
-                </div>
-                <p class="contact-title">Email</p>
-                <p class="contact-slogan">Our friendly team is here to help.</p>
-                <a href="mailto:info@jukeboxy.com" class="contact-number">info@jukeboxy.com</a>
-              </div>
+                        <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">What do I need to get started with Jukeboxy Service?</p>
             </li>
-            <li class="contact-item">
-              <div class="contact-card groth">
-                <div class="contact-img address">
-                  <a href="">
-                  <div class="inner-img"></div>
-                  </a>
-                </div>
-                <p class="contact-title">Office</p>
-                <p class="contact-slogan">Come say hello at our office.</p>
-                <a href="" class="contact-number">Branch Office : Miami Beach,</a>
-                <a href="" class="contact-number">FLHeadquarter : New York, NY</a>
-              </div>
+                        <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">How many songs are covered with a Jukeboxy subscription?</p>
+            </li>
+                        <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">Why should I use Jukeboxy instead of Pandora One?</p>
+            </li>
+                        <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">Do you have all recent releases in your library, and do you update the playlists regularly?</p>
+            </li>
+                        <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">Do you offer custom playlists?</p>
+            </li>
+                                    <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">My business is strictly a family-friendly business, does Jukeboxy Music for Business have explicit off function?</p>
+            </li>
+                                    <li class="question-item">
+              <img src="./img/play.svg" alt="" class="faq-img-play">
+              <p class="faq-item-text">I don’t want to hear songs from certain genres. Can we exclude genres from our library?</p>
             </li>
           </ul>
-        </div>
-      </div>
-      <section class="section">
-        <h2 class="main-title center">Get in touch</h2>
-        <p class="main-text center">We’d love to hear from you. Please fill out this form.</p>
-        <form action="">
-          <label class="label" for=""> First name
-            <input class="input" type="text" name="first-name" placeholder="First name">
-          </label>
-          <label class="label" for=""> Last name
-            <input class="input" type="text" name="last-name" placeholder="Last name">
-          </label>
-                    <label class="label" for=""> Company URL
-                      <div class="url">
-            <input class="input url1" type="text" name="url1" placeholder="http://">
-            <input class="input url2" type="text" name="url2" placeholder="www.jukeboxy.com">
-            </div>
-          </label>
-                    <label class="label" for=""> Email
-            <input class="input" type="text" name="email" placeholder="you@company.com">
-          </label>
-                    <label class="label" for=""> Phone number
-            <input class="input" type="text" name="phone" placeholder="+1 (555) 000-0000">
-          </label>
-           <label class="label" for=""> Message
-            <textarea class="textarea" type="text" name="message" placeholder="Leave us a message..."></textarea>
-          </label>
-          <button class="feature-button full-screen" type="submit">Send message</button>
-        </form>
-      </section>
+
+        </section>
+        <section class="section">
+          <div class="get-touch">
+            <h4 class="touch-title center">Still have questions?</h4>
+            <p class="touch-text center">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+            <button class="touch-button" type="button">Get in touch</button>
+
+          </div>
+        </section>
+
     </main>
     <footer class="footer">
         <a href="#" class="footer-logo"><img src="./img/Logo-dark.svg" alt=""></a>

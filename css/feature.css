@@ -3,9 +3,6 @@
 	height: 748px;
 	position: relative;
 	background: linear-gradient(180deg, #051717 90.22%, #063f3f 100%);
-	/* url("../img/Row1-mobile.png") bottom 130px left no-repeat,
-     url("../img/Row2-mobile.png") bottom 25px left no-repeat,
-     url("../img/Rectangle\ 1.svg") bottom 25px left no-repeat; */
 }
 .center {
 	text-align: center;

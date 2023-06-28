@@ -79,20 +79,26 @@
 
     <main>
       <div class="hero-faq">
-        <h1 class="hero-title faq-title1">YOU HAVE QUESTIONS.</h1>
-        <h1 class="hero-title faq-title2">WE HAVE <img src="./img/faq-micr.svg" alt=""> ANSWERS.</h1>
-        <p class="hero-text">Need something cleared up? Here are our most frequently asked questions.</p>
+        <h1 class="hero-title center faq-title1">YOU HAVE QUESTIONS.</h1>
+        <h1 class="hero-title center faq-title2">WE HAVE <img src="./img/faq-micr.svg" alt=""> ANSWERS.</h1>
+        <p class="hero-text center">Need something cleared up? Here are our most frequently asked questions.</p>
         <input class="faq-input-headder" type="search" placeholder="Search">
         </div>
         <section class="section">
-          <select name="faq-select" class="faq-select">
+          <select name="faq-select" class="faq-select mobile">
             <option value="general">General</option>
-            <option value="2">Зеленый</option>
-            <option value="3">Желтый</option>.faq-
-            <option value="4">Красный</option>
-            <option value="5">Оранжевый</option>cx
-            <option value="6">Черный</option>
+            <option value="application">Application</option>
+            <option value="licensing">Licensing</option>.faq-
+            <option value="sonos">Sonos</option>
+            <option value="hardware">Dedicated Hardware</option>cx
           </select>
+          <ul id="faq-list">
+            <li class="faq item"><a href="" class="faq-link">General</a></li>
+            <li class="faq item"><a href="" class="faq-link">Application</a></li>
+            <li class="faq item"><a href="" class="faq-link">Licensing</a></li>
+            <li class="faq item"><a href="" class="faq-link">Sonos</a></li>
+            <li class="faq item"><a href="" class="faq-link">Dedicated Hardware</a></li>
+          </ul>
 
           <div class="selected-block">
             <img class="faq-img-pause" src="./img/pause.svg" alt="">
@@ -101,7 +107,7 @@
             </h4>
             <p class="faq-text">Jukeboxy Music is a state-of-the-art music streaming service for businesses that plays music for their customers with in-store audio message capability. Companies who wish the utilize the powerful in-store audio message marketing approach, they can do so with our simple and quick system.</p>
           </div>
-          <ul class="question-list">
+          <ul id="question-list">
             <li class="question-item">
               <img src="./img/play.svg" alt="" class="faq-img-play">
               <p class="faq-item-text">Who can use Jukeboxy?</p>
@@ -139,8 +145,10 @@
         </section>
         <section class="section">
           <div class="get-touch">
+            <div class="faq-desctop1">
             <h4 class="touch-title center">Still have questions?</h4>
             <p class="touch-text center">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+            </div>
             <button class="touch-button" type="button">Get in touch</button>
 
           </div>
